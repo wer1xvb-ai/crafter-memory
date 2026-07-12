@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.craftermemorymods.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "CrafterBlockEntityMixin",
+    "HopperBlockEntityMixin"
+  ],
+  "client": [
+    "CrafterScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
